@@ -11,7 +11,7 @@ public class MilageReport {
 		double milesPerGallon = 24.5;
 		double totalGallons = totalMiles * milesPerGallon;
 		double pricePerGallon = 3.05;
-		double totalPrice = totalGallons * pricePerGallon;
+		double totalPrice = totalGallons / pricePerGallon;
 		
 		System.out.println("Total price spent on gas was $" + totalPrice);
 	}
